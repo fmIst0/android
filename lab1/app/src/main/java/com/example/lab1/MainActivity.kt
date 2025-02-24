@@ -76,7 +76,10 @@ fun FontSelectorApp() {
                 Text("ОК")
             }
             Spacer(modifier = Modifier.width(8.dp))
-            Button(onClick = { displayText = "" }) {
+            Button(onClick = {
+                text = ""
+                displayText = ""
+            }) {
                 Text("Cancel")
             }
         }
