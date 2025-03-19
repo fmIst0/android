@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter text" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioSansSerif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sans-serif" />
+
+        <RadioButton
+            android:id="@+id/radioSerif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Serif" />
+
+        <RadioButton
+            android:id="@+id/radioMonospace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Monospace" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK" />
+
+    <!-- Cancel button -->
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel" />
+</LinearLayout>
